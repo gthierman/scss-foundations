@@ -1,0 +1,38 @@
+body {
+  @include type(body);
+  font-family: $font-family;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  @include type(h1);
+  margin-bottom: spacing(l);
+}
+h2 {
+  @include type(h2);
+  margin-bottom: spacing(m);
+}
+h3 {
+  @include type(h3);
+  margin-bottom: spacing(s);
+}
+h4 {
+  @include type(h4);
+  margin-bottom: spacing(xs);
+}
+p {
+  margin-bottom: spacing(l);
+}
+strong {
+  @include type(strong);
+}
+a {
+  @include type(link)
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
