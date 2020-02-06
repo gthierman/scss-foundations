@@ -53,7 +53,6 @@ $spacing: (
 <div class="spacing-stack-s"> This applies bottom margin of 8px </div>
 <div class="spacing-inline-s"> This applies right margin of 8px </div>
 <div class="spacing-inset-s"> This applies padding of 8px </div>
-
 ```
 
 ## Typography
